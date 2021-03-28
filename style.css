@@ -6,7 +6,7 @@
 .box-set {
     position: relative;
     height: 800px;
-    background: lightgrey;
+    background: whitesmoke;
 
 }
 
@@ -18,33 +18,17 @@
     border: 2px solid lightslategrey;
 }
 
-/* .box-1 {
-    /* position: absolute;
-    top: 0;
-    left: 0; 
-    background
-}*/
 
-/*.box-2 {
-    top: 0;
-    right: 2%; 
-
-}*/
-
-/*.box-3 {
-    right: 20px;
-    bottom: 10px; 
-}*/
-
-/*.box-4 {
-    bottom: 0; 
-} */
 
 img {
     max-width: 100%;
     height: auto;
 }
 
+.font-comp {
+    font-family: 'New Tegomin', serif;
+    color: darkslateblue;
+}
 
 
 /* Media queries TODO*/
