@@ -48,38 +48,84 @@
           </ul>
           
         </div>
-      </nav>
+    </nav>
 
-      <div class="container">
+    <div class="container">
         <div class="jumbotron">
-          <h1 class="display-4 font-comp">Summary: Latitude vs. X</h1>
-          <p class="lead font-comp">This is placed inside a container</p>
-          <hr class="my-4">
+            <h1 class="display-4 font-comp">Summary: Latitude vs. X</h1>
+            <p class="lead font-comp">This is placed inside a container</p>
+            <hr class="my-4">
 
-          <figure class="box box-1">
-            <article>
-                <a target="_blank" href="resources/assets/images/Fig1.png">
-                  <img src="resources/assets/images/Fig1.png" alt="Max Temperature">
-                </a>
-                
-                </article>
-        </figure>
-          <p>Here we can display some more text!</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">           
+                <figure class="thumbnail">
+                    <article>
+                        <a target="_blank" href="resources/assets/images/Fig1.png">
+                        <img src="resources/assets/images/Fig1.png" alt="Max Temperature">
+                        </a>
+                        
+                        </article>
+                </figure>
+                </div>
+                <div class="col-sm-12 col-md-6"> 
+                    <p class="lead font-comp">We were given the assignment of analyzing certain weather variations based on Latitude which is the distance from the equator.
+                        We assembled a dataset on over 500 cities worldwide by using the OpenWeatherMap API.  After cleaning and analyzing the data, Matplotlib was used to plot our assigned weather attributions vs. latitude.
+                        Those assigned weather metrics were max temperature, cloudiness, humidity, and wind speed.
+                        This site displays the visualizations for each of the weather factors which were created as part of the analysis as well as the source data.
+                        Each visualization is accompanied by a description capturing trends and possible patterns.  </p>
+                </div>
+            </div>
+
+         
+          
+          <div class="container">
+            <div class=" container-fluid">
+                <h1 class="display-4 font-comp"> Visualizations</h1>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <figure class="thumbnail">
+                            <article>
+                                <a target="_blank" href="max_temp.html">
+                                <img src="resources/assets/images/Fig1.png" alt="Max Temperature">
+                                </a>
+                            </article>
+                        </figure>
+                      
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <figure class="thumbnail">
+                            <article>
+                                <a target="_blank" href="humidity.html">
+                                <img src="resources/assets/images/Fig2.png" alt="Humidity">
+                                </a>
+                            </article>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <figure class="thumbnail box-selected">
+                            <article>
+                                <a target="_blank" href="cloudiness.html">
+                                <img src="resources/assets/images/Fig3.png" alt="Cloudiness">
+                                </a>
+                            </article>
+                        </figure>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <figure class="thumbnail">
+                            <article>
+                                <a target="_blank" href="wind_speed.html">
+                                <img src="resources/assets/images/Fig4.png" alt="Wind Speed">
+                                </a>
+                            </article>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div> 
         </div>
-        <div class="box-set">
-            <figure class="box box-1">
-                <article>
-                    <a target="_blank" href="resources/assets/images/Fig1.png">
-                      <img src="resources/assets/images/Fig1.png" alt="Max Temperature">
-                    </a>
-                    <p><em>Max Temperature</em></p>
-                    </article>
-            </figure>
-            <figure class="box box-2">Box 2</figure>
-            <figure class="box box-3">Box 3</figure>
-            <figure class="box box-4">Box 4</figure>
-          </div>
+        
       </div>
 
 
