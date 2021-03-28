@@ -1,3 +1,77 @@
+/* to get the dropdown menu to actually drop down */
 .dropdown:hover>.dropdown-menu {
     display: block;
+}
+
+.box-set {
+    position: relative;
+    height: 800px;
+    background: lightgrey;
+
+}
+
+.box {
+    /*position: absolute;
+    width: 400px;
+    height: 300px;*/
+    background: lightgrey;
+    border: 2px solid lightslategrey;
+}
+
+/* .box-1 {
+    /* position: absolute;
+    top: 0;
+    left: 0; 
+    background
+}*/
+
+/*.box-2 {
+    top: 0;
+    right: 2%; 
+
+}*/
+
+/*.box-3 {
+    right: 20px;
+    bottom: 10px; 
+}*/
+
+/*.box-4 {
+    bottom: 0; 
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Media queries TODO*/
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+@include media-breakpoint-up(xs) { ... }
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+
+// Example usage:
+@include media-breakpoint-up(sm) {
+  .some-class {
+    display: block;
   }
+}
