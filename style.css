@@ -18,6 +18,9 @@
     border: 2px solid lightslategrey;
 }
 
+.box-selected {
+    border: 4px solid teal;
+}
 
 
 img {
