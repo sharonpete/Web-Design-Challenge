@@ -33,6 +33,23 @@ img {
     color: darkslateblue;
 }
 
+.table-responsive-sm {
+    max-width: 576px;;
+}
+
+.table-responsive-md {
+    max-width: 768px;;
+}
+
+.table-responsive-lg {
+    max-width: 992px;;
+}
+
+.table-responsive-xl {
+    max-width: 1120px;;
+}
+
+
 
 /* Media queries TODO*/
 // Extra small devices (portrait phones, less than 576px)
